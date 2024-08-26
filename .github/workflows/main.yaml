@@ -25,7 +25,7 @@ jobs:
           images: learningp/customer-churn-prediction:v1
 
       - name: Build and push Docker Image
-        uses: docker/build-push-actions@v3
+        uses: docker/build-push-action@v3
         with:
           context: .
           push: true
