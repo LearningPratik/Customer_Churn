@@ -1,0 +1,8 @@
+.idea/
+mlruns/
+mlartifacts/
+__pycache__
+.dvc/
+data/.ipynb_checkpoints
+data/archive.zip
+.dvc/config
