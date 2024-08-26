@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: learningp/customer-churn-prediction:v1
+          images: learningp/customer-churn-prediction
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v3
