@@ -1,0 +1,4 @@
+[core]
+    remote = local_data_registry
+['remote "local_data_registry"']
+    url = ../../dvcremote_churn
